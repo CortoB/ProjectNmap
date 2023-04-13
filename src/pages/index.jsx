@@ -1,13 +1,21 @@
-import Head from "next/head"
-export default function Home() {
-    return (
-        <>
-            <Head>
+import CommandInput from "@/components/CommandInput"
+import Image from "next/image"
+import NavBar from "@/components/Navbar"
 
-            </Head>
-            <main>
-                <h1>Hello !</h1>
-            </main>
-        </>
-    )
+function Accueil() {
+  return (
+    <div>
+      <NavBar />
+      <Image
+        className="flex justify-center m-auto"
+        src="/nmap_logo.png"
+        alt="logo nmap"
+        width={350}
+        height={200}
+      />
+      <CommandInput />
+    </div>
+  )
 }
+
+export default Accueil

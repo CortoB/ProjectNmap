@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar-link {
+    background-color: #4b5563;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #6DC6E3;
+}
+
+.navbar-link:hover {
+    font-weight: bold;
+    background-color: #6b7280;
+}
+
+.navbar-link:active {
+    background-color: #374151;
+}
+
+.commandinput-input{
+    color: #6DC6E3;
+    background-color: #4b5563;
+    padding: 8px;
+    margin-left: 8px;
+    border-width: 1px;
+    border-color: #6DC6E3;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.commandinput-input:focus{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
