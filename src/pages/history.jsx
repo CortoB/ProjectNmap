@@ -1,10 +1,11 @@
 import NavBar from "@/components/Navbar"
+import Table from "@/components/Table"
 
 function History() {
     return (
         <div>
             <NavBar />
-            <h1 className="flex justify-center text-[#00FF00]">hi</h1>
+            <Table/>
         </div>
         
     )
