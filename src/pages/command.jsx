@@ -1,10 +1,11 @@
 import NavBar from "@/components/Navbar"
+import ResultCommand from "@/components/ResultCommand"
 
 function Command() {
     return (
         <div>
             <NavBar/>
-            <h1 className="flex justify-center text-[#00FF00]">hi com</h1>
+            <ResultCommand/>
         </div>
     )
 }

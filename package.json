@@ -1,4 +1,6 @@
 {
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -6,24 +8,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.14",
+    "@next/font": "13.1.6",
+    "axios": "^1.4.0",
     "clsx": "^1.2.1",
+    "cors": "^2.8.5",
     "formik": "^2.2.9",
-    "jsonwebtoken": "^9.0.0",
-    "next": "13.2.4",
+    "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "yup": "^1.0.2"
+    "yup": "^0.32.11"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "eslint": "^8.36.0",
-    "eslint-config-next": "^13.2.4",
-    "eslint-config-prettier": "^8.7.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.33.0",
+    "eslint-config-next": "^13.1.6",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.21",
-    "prettier": "^2.8.4",
-    "prettier-plugin-tailwindcss": "^0.2.4",
-    "tailwindcss": "^3.3.1"
+    "prettier": "^2.8.3",
+    "prettier-plugin-tailwindcss": "^0.2.2",
+    "tailwindcss": "^3.2.4"
   }
 }

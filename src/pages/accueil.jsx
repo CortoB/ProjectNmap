@@ -1,21 +1,10 @@
 import CommandInput from "@/components/CommandInput"
 import Image from "next/image"
 import NavBar from "@/components/Navbar"
-import { useState } from "react"
 
-const initialValues = {
-    commande: "",
-    option: ""
-}
+
 
 function Accueil() {
-  const [commands, setCommands] = useState([])
-  
-  const handleSubmit = (newCommands, { resetForm }) => {
-    setCommands([...commands, { ...newCommands }])
-    resetForm()
-  }
-
   return (
     <div>
       <NavBar />
